@@ -14,6 +14,12 @@
       }
    ],
    "minimum-stability": "stable",
+   "repositories":[
+       {
+           "type": "git",
+           "url": "https://github.com/mehedi-iitdu/laravel-paystack.git"
+       }
+   ]
    "require": {
     "php": "^5.4.0|^7.0",
     "illuminate/support": "5.*",
