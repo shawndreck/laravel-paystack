@@ -32,14 +32,14 @@ Once Laravel Paystack is installed, you need to register the service provider. O
 
 > If you use **Laravel >= 5.5** you can skip this step and go to [**`configuration`**](https://github.com/unicodeveloper/laravel-paystack#configuration)
 
-* `Unicodeveloper\Paystack\PaystackServiceProvider::class`
+* `Mehedi\Paystack\PaystackServiceProvider::class`
 
 Also, register the Facade like so:
 
 ```php
 'aliases' => [
     ...
-    'Paystack' => Unicodeveloper\Paystack\Facades\Paystack::class,
+    'Paystack' => Mehedi\Paystack\Facades\Paystack::class,
     ...
 ]
 ```
@@ -49,7 +49,7 @@ Also, register the Facade like so:
 You can publish the configuration file using this command:
 
 ```bash
-php artisan vendor:publish --provider="Unicodeveloper\Paystack\PaystackServiceProvider"
+php artisan vendor:publish --provider="Mehedi\Paystack\PaystackServiceProvider"
 ```
 
 A configuration-file named `paystack.php` with some sensible defaults will be placed in your `config` directory:

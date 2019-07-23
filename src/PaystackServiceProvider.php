@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Unicodeveloper\Paystack;
+namespace Mehedi\Paystack;
 
 use Illuminate\Support\ServiceProvider;
 

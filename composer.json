@@ -27,12 +27,12 @@
     },
    "autoload": {
         "psr-4": {
-          "Unicodeveloper\\Paystack\\": "src/"
+          "Mehedi\\Paystack\\": "src/"
         }
    },
    "autoload-dev": {
         "psr-4": {
-            "Unicodeveloper\\Paystack\\Test\\": "tests"
+            "Mehedi\\Paystack\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -41,10 +41,10 @@
    "extra": {
     "laravel": {
         "providers": [
-            "Unicodeveloper\\Paystack\\PaystackServiceProvider"
+            "Mehedi\\Paystack\\PaystackServiceProvider"
         ],
         "aliases": {
-            "Paystack": "Unicodeveloper\\Paystack\\Facades\\Paystack"
+            "Paystack": "Mehedi\\Paystack\\Facades\\Paystack"
         }
     }
   }
