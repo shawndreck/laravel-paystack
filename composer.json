@@ -26,9 +26,6 @@
         "mockery/mockery": "^1.3"
     },
    "autoload": {
-        "files": [
-              "src/Support/helpers.php"
-            ],
         "psr-4": {
           "Mehedi\\Paystack\\": "src/"
         }
