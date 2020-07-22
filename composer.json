@@ -14,23 +14,16 @@
       }
    ],
    "minimum-stability": "stable",
-   "repositories":[
-       {
-           "type": "git",
-           "url": "https://github.com/mehedi-iitdu/laravel-paystack.git"
-       }
-   ],
    "require": {
-    "php": "^5.4.0|^7.0",
-    "illuminate/support": "5.*",
-    "guzzlehttp/guzzle": "5.*|6.*",
-    "mehedi-iitdu/laravel-paystack":"dev-master"
+    "php": "^7.0",
+    "illuminate/support": "^5.8.15|^6.0|^7.0",
+    "guzzlehttp/guzzle": "5.*|6.*"
    },
    "require-dev": {
-        "phpunit/phpunit" : "4.*",
+        "phpunit/phpunit" : "^8.4|^9.0",
         "scrutinizer/ocular": "~1.1",
-        "satooshi/php-coveralls": "^0.7.0",
-        "mockery/mockery": ">=0.7.2"
+        "php-coveralls/php-coveralls": "^2.0",
+        "mockery/mockery": "^1.3"
     },
    "autoload": {
         "psr-4": {
