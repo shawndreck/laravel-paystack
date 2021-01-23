@@ -1,7 +1,7 @@
 {
-    "name": "mehedi-iitdu/laravel-paystack",
-    "description": "A Laravel 5 Package for Paystack",
-    "keywords": ["php","github", "laravel","Open Source","payments", "subscription", "paystack", "paystack.co","laravel 5"],
+    "name": "shawndreck/laravel-paystack",
+    "description": "A Laravel 6+ Package for Paystack",
+    "keywords": ["php","github", "laravel","Open Source","payments", "subscription", "paystack", "paystack.co"],
     "license": "MIT",
     "authors": [
       {
@@ -11,6 +11,10 @@
       {
         "name": "iamfunsho",
         "email": "info@devfunsho.com"
+      },
+      {
+        "name": "Maxwell",
+        "email": "ad@shawndreck.com"
       }
    ],
    "minimum-stability": "stable",
@@ -27,12 +31,12 @@
     },
    "autoload": {
         "psr-4": {
-          "Mehedi\\Paystack\\": "src/"
+          "Shawndreck\\Paystack\\": "src/"
         }
    },
    "autoload-dev": {
         "psr-4": {
-            "Mehedi\\Paystack\\Test\\": "tests"
+            "Shawndreck\\Paystack\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -41,10 +45,10 @@
    "extra": {
     "laravel": {
         "providers": [
-            "Mehedi\\Paystack\\PaystackServiceProvider"
+            "Shawndreck\\Paystack\\PaystackServiceProvider"
         ],
         "aliases": {
-            "Paystack": "Mehedi\\Paystack\\Facades\\Paystack"
+            "Paystack": "Shawndreck\\Paystack\\Facades\\Paystack"
         }
     }
   }
