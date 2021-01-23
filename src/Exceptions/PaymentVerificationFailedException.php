@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Mehedi\Paystack\Exceptions;
+namespace Shawndreck\Paystack\Exceptions;
 
 use Exception;
 

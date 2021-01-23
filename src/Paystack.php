@@ -9,14 +9,12 @@
  * file that was distributed with this source code.
  */
 
- //Mehedi
-
-namespace Mehedi\Paystack;
+namespace Shawndreck\Paystack;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Config;
-use Mehedi\Paystack\Exceptions\IsNullException;
-use Mehedi\Paystack\Exceptions\PaymentVerificationFailedException;
+use Shawndreck\Paystack\Exceptions\IsNullException;
+use Shawndreck\Paystack\Exceptions\PaymentVerificationFailedException;
 
 class Paystack
 {
